@@ -84,3 +84,4 @@ Ranked by **adherence** (% of days logged since challenge start), not absolute n
 
 ### 7-Day Rolling Average
 Smooths out daily weight fluctuations on the dashboard and progress chart.
+Build trigger
