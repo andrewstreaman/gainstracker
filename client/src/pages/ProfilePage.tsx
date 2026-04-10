@@ -119,7 +119,7 @@ export default function ProfilePage() {
             <label className="block text-sm font-medium text-gray-300 mb-1">Activity Level</label>
             <select
               value={activityLevel}
-              onChange={(e) => setActivityLevel(e.target.value)}
+              onChange={(e) => setActivityLevel(e.target.value as 'sedentary' | 'light' | 'moderate' | 'active' | 'very_active')}
               className={inputCls}
             >
               {ACTIVITY_OPTIONS.map((o) => (
