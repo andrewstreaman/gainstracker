@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>GainsTracker</title>
+
+    <!-- PWA manifest -->
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- Theme color (Android chrome toolbar / iOS status bar) -->
+    <meta name="theme-color" content="#16a34a" />
+
+    <!-- iOS PWA support -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="GainsTracker" />
+    <link rel="apple-touch-icon" href="/icon.svg" />
+
+    <!-- Description for share sheets / search -->
+    <meta name="description" content="Track your daily weight, exercise, and nutrition. Smash your goals." />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

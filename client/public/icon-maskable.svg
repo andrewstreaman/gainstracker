@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Full bleed background for maskable (safe zone is center 80%) -->
+  <rect width="512" height="512" fill="#16a34a"/>
+  <!-- Dumbbell (slightly smaller to stay in safe zone) -->
+  <rect x="62" y="220" width="40" height="72" rx="12" fill="white"/>
+  <rect x="114" y="200" width="46" height="112" rx="12" fill="white"/>
+  <rect x="160" y="244" width="192" height="24" rx="8" fill="white"/>
+  <rect x="352" y="200" width="46" height="112" rx="12" fill="white"/>
+  <rect x="410" y="220" width="40" height="72" rx="12" fill="white"/>
+</svg>

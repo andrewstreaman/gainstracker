@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background circle -->
+  <rect width="512" height="512" rx="112" fill="#16a34a"/>
+  <!-- Dumbbell icon -->
+  <!-- Left plate left -->
+  <rect x="42" y="210" width="44" height="92" rx="14" fill="white"/>
+  <!-- Left plate right -->
+  <rect x="98" y="188" width="52" height="136" rx="14" fill="white"/>
+  <!-- Bar -->
+  <rect x="150" y="236" width="212" height="40" rx="10" fill="white"/>
+  <!-- Right plate left -->
+  <rect x="362" y="188" width="52" height="136" rx="14" fill="white"/>
+  <!-- Right plate right -->
+  <rect x="426" y="210" width="44" height="92" rx="14" fill="white"/>
+</svg>
