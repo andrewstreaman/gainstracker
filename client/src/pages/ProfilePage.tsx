@@ -22,7 +22,7 @@ export default function ProfilePage() {
   const [heightInches, setHeightInches] = useState(
     user?.height_cm ? String(cmToInches(parseFloat(String(user.height_cm)))) : ''
   );
-  const [activityLevel, setActivityLevel] = useState(user?.activity_level || 'moderate');
+  const [activityLevel, setActivityLevel] = useState<'sedentary' | 'light' | 'moderate' | 'active' | 'very_active'>(user?.activity_level || 'moderate');
   const [saving, setSaving] = useState(false);
   const [message, setMessage] = useState('');
 
